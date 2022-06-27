@@ -1,0 +1,70 @@
+@media (max-width: 1200px) {
+  .contacts__phone-number{
+    font-size: 22px;
+  }
+  .mainbar__nav {
+    padding: 0 25px;
+  }
+
+  .placeholder {
+    width: 200px
+  }
+}
+
+@media (max-width: 990px) {
+  .placeholder {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+
+  .header__logo {
+    width: 165px;
+    height: 90px;
+  }
+
+  .header__title {
+    top: 170px;
+    left: 5px;
+  }
+}
+
+@media (max-width: 786px) {
+  .products {
+    display: none;
+  }
+  .mainbar {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    position: absolute;
+    top: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .props__link {
+    font-size: 0;
+  }
+  .info {
+    font-size: 10px;
+  }
+
+  .contacts__phone-number {
+    font-size: 18px;   
+  }
+
+  .header__logo {
+    width: 95px;
+    height: 50px;
+  }
+
+  .header__title {
+    top: 125px;
+    left: 0px;
+    font-size: 8px;
+  }
+}
